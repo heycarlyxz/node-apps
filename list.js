@@ -1,3 +1,5 @@
 var list = function(arr){
-    console.log("List of registered users: " + arr);
+    return arr;
 }(["carl","tin","ricky","jm"]);
+
+module.exports = list;
